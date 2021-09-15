@@ -1,0 +1,41 @@
+<h1>Welcome to my Exam</h1>
+<p>
+  These are the core features of Angular using bootstrap with a responsive
+  design
+</p>
+<pre>
+Requirements 1
+● routing between 2 pages (create a new routable page)
+● basic form management using one of angular forms (validation, submit, clear, etc...)
+● pass/share data from page 1 to page 2 (show data in page 2), use some pipable operators.
+
+Requirements 2:
+● Refer to the attached web design .
+● png version of the logo has been provided.
+● Other Images can be replaced. Candidate can
+  either cut the images from the pdf,
+  or replace them with free google images of
+  their choice, as long as the sizes are in
+  correct ratio based from the design.
+● Forms should have validation.
+● Webpage should be responsive.
+  There’s no mobile page design.
+  Adjust the page to make it readable
+  in ipad/mobile version.
+● Stylesheet compiled from a LESS file is a plus.
+
+Comments:
+The iterviewer didn't provide the assets/sample design that's why I created my own version.
+I combined the two requirements in one application to make it more advanced.
+I decided to used template driven forms instead of reactive forms for much faster development.
+I used SCSS preprocess much better than LESS.
+In addition to the task, I included rest-api integration using json placeholder
+
+THANK YOU
+
+Take Note: This is just one of my simple folder structure and routing setup without lazy load.
+</pre>
+<button class="btn btn-secondary mr-2" [routerLink]="['/user']">
+  Page not found section
+</button>
+<button class="btn btn-dark" [routerLink]="['/posts']">Posts Section</button>
